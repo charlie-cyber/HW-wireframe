@@ -33,7 +33,7 @@ p:last-child {
 h1,
 h2,
 h3 {
-  font-family: Trattatello, fantasy;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 700;
   color: #4aaaa5;
 }
@@ -74,7 +74,7 @@ h3 {
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: black;
 }
 
 nav {
@@ -87,7 +87,7 @@ nav a {
   padding-left: 15px;
   margin-left: 15px;
   line-height: 18px;
-  color: #999;
+  color: black;
   text-decoration: none;
   border-left: 1px solid #efefef;
 }
@@ -137,14 +137,6 @@ h2 {
 
 /* portfolio page */
 
-.work {
-  position: relative;
-  float: left;
-  width: 274px;
-  margin: 20px 0 25px;
-  overflow: auto;
-}
-
 .work:nth-child(even) {
   margin-right: 40px;
 }
@@ -165,7 +157,7 @@ h2 {
   line-height: 30px;
   color: #ffffff;
   text-align: center;
-  background: #4aaaa5;
+
   border-bottom: 0;
 }
 
